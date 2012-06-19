@@ -1,0 +1,38 @@
+{
+  "name": "dhoppe-grub",
+  "author": "Dennis Hoppe",
+  "description": "Grub Module for Debian, Ubuntu",
+  "license": "GPLv2",
+  "project_page": "http://github.com/dhoppe/puppet-grub",
+  "source": "git://github.com/dhoppe/puppet-grub",
+  "summary": "Grub Module",
+  "version": "0.0.1",
+  "checksums": {
+    "Gemfile": "d5ce5c80f3c31e583507eb80b61b7400",
+    "Modulefile": "ebaa2e69c160083c31e39b0f8eeb873c",
+    "README": "04c05063387fff3f5d31b73396c69953",
+    "Rakefile": "17e38802c4cef92b76ce3c00b9e339ec",
+    "examples/grub.yaml": "9a559bce6c963799f8f2f71b3ea9735c",
+    "files/common/etc/grub.d/40_custom": "a588de5659a3ff094781f2b901f0d049",
+    "manifests/init.pp": "f15a38b242df2b2c2f9a5110546b8bf5",
+    "manifests/params.pp": "b1cc6768092fee30f9baa7e7fc8b940d",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "templates/maverick/etc/default/grub.erb": "7d278b5d9bd3789179767b2d553b9ab0",
+    "templates/maverick/etc/grub.d/00_header.erb": "573838d9640e957248fd874a7704da08",
+    "templates/maverick/etc/grub.d/10_linux.erb": "d7c9d4961c73ff4ca3312fe7a4ff65f1",
+    "templates/natty/etc/default/grub.erb": "914b8acff512701767582cd983926857",
+    "templates/natty/etc/grub.d/00_header.erb": "a3f083652fdec928c7236fa8e6c7ff35",
+    "templates/natty/etc/grub.d/10_linux.erb": "cd53c2cacd79e69f7de6fe1290855c67",
+    "templates/squeeze/etc/default/grub.erb": "04cb69a89098225bc459d066c0b1db23",
+    "templates/squeeze/etc/grub.d/00_header.erb": "78ffd9512b4195720d61f37e9559eaf2",
+    "templates/squeeze/etc/grub.d/10_linux.erb": "1ac9b7b9322c2d5f210da561292cdb88",
+    "tests/init.pp": "d68bd1904fe8e9dd139486baa78f2fab"
+  },
+  "dependencies": [
+    {
+      "name": "dhoppe/puppet",
+      "version_requirement": "\u003e\u003d0.0.1"
+    }
+  ]
+}

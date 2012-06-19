@@ -1,0 +1,18 @@
+# Class: grub
+#   This module manages grub
+#
+# Definition:
+#   -
+#
+# Parameters:
+#   $password - specify the password
+#   $timeout  - specify the timeout
+#
+# Actions:
+#   Installs the grub, 00_header, 10_linux, 40_custom
+#
+# Requires:
+#   -
+#
+# Sample Usage:
+#   -

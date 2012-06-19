@@ -1,0 +1,10 @@
+name 'dhoppe-grub'
+version '0.0.1'
+
+author 'Dennis Hoppe'
+license 'GPLv2'
+project_page 'http://github.com/dhoppe/puppet-grub'
+source 'git://github.com/dhoppe/puppet-grub'
+summary 'Grub Module'
+description 'Grub Module for Debian, Ubuntu'
+dependency 'dhoppe/puppet', '>=0.0.1'
