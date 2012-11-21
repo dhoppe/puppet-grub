@@ -1,6 +1,6 @@
 class grub::params {
   case $::lsbdistcodename {
-    'squeeze', 'maverick', 'natty': {
+    'squeeze', 'natty': {
       $password = hiera('password')
       $timeout  = hiera('timeout')
     }
