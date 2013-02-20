@@ -1,5 +1,5 @@
 # Class: grub
-#   This module manages grub
+#   This module manages grub for debian/ubuntu
 #
 # Definition:
 #   -
